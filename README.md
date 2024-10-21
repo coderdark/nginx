@@ -27,4 +27,4 @@
 + Once you have the server running, point your browser to `localhost:8080`
 
 ## Configure nginx
-To test a configuration and also to know where the configuration is located at, type: `nginx -t` or `nginx -V`
+To __test__ a configuration and also to know where the configuration is located at, type: `nginx -t`.   Type: `nginx -V` and it will provid the config and the path.
