@@ -17,3 +17,8 @@
     + Start: `nginx`
     + Stop: `nginx -s stop`
     + Reload: `nginx -s reload`
++ Linux
+  + nginx
+    + Start: `nginx`
+    + Stop: `nginx -s stop`
+    + Reload: `nginx -s reload`
