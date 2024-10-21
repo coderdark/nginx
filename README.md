@@ -4,4 +4,5 @@
 + Mac
   + [How to install homebrew](https://docs.brew.sh/Installation)
   + `brew install nginx`
-+ Linux
++ Linux (Raspberry PI)
+  + `sudo apt install nginx`
