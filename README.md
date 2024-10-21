@@ -25,3 +25,5 @@
    
 ## View Index Page
 + Point your browser to `localhost:8080`
+
+## Configure nginx
