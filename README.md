@@ -22,3 +22,6 @@
     + Start: `nginx`
     + Stop: `nginx -s stop`
     + Reload: `nginx -s reload`
+   
+## View Index Page
++ Point your browser to `localhost:8080`
