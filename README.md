@@ -7,7 +7,10 @@ It is a web server, reverse-proxy and forward-proxy
   + `brew install nginx`
 + Linux ([Raspberry PI](https://pimylifeup.com/raspberry-pi-nginx/))
   + `sudo apt install nginx`
- 
+
+## Default Config
++ Port: 80
+
 ## Starting
 + Mac
   + Brew
