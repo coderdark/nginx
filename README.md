@@ -8,12 +8,6 @@ It is a web server, reverse-proxy and forward-proxy
 + Linux ([Raspberry PI](https://pimylifeup.com/raspberry-pi-nginx/))
   + `sudo apt install nginx`
 
-## Default Config
-+ Port: `80`
-+ Config Path: `/etc/nginx`
-+ Config File: `nginx.conf`
-+ HTML Path: `/usr/share/nginx/html`
-
 ## Starting
 + Mac
   + Brew
@@ -43,3 +37,9 @@ It is a web server, reverse-proxy and forward-proxy
 
 ## Configure nginx
 To __test__ a configuration and also to know where the configuration is located at, type: `nginx -t`.   Type: `nginx -V` and it will provid the config and the path.
+
+## Default Config
++ Port: `80`
++ Config Path: `/etc/nginx`
++ Config File: `nginx.conf`
++ HTML Path: `/usr/share/nginx/html`
