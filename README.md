@@ -51,7 +51,23 @@ To __test__ a configuration and also to know where the configuration is located 
     + Path: `/etc/nginx/sites-available`
     + Path: `/etc/nginx/sites-enabled`
    
-## Example Server Block
+## Example Server (https://nginx.org/en/docs/http/request_processing.html)
++ Basic
+```
+server {
+    listen       80;
+    listen  [::]:80;
+    server_name  localhost;
+
+    #access_log  /var/log/nginx/host.access.log  main;
+
+    location / {
+        root   /usr/share/nginx/html;
+        index  index.html index.htm;
+    }
+}
+```
++ Extended
 ```
 server {
     listen       80;
@@ -96,8 +112,21 @@ server {
     #location ~ /\.ht {
     #    deny  all;
     #}
-}
+```
 
+## Example Proxy Pass
+```
+server {
+    listen       80;
+    listen  [::]:80;
+    server_name  localhost;
+
+    #access_log  /var/log/nginx/host.access.log  main;
+
+    location / {
+        root   /usr/share/nginx/html;
+    }
+}
 ```
   
 ## Resources
