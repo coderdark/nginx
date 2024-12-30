@@ -22,12 +22,14 @@ It is a web server, reverse-proxy and forward-proxy
     + Reload: `brew services reload nginx`
   + nginx
     + Start: `nginx`
-    + Stop: `nginx -s stop`
+    + Stop: `nginx -s stop` - Fast Shutdown
+    + Quit: `nginx -s quit` - Graceful Shutdown
     + Reload: `nginx -s reload`
 + Linux
   + nginx
     + Start: `nginx`
-    + Stop: `nginx -s stop`
+    + Stop: `nginx -s stop` - Fast Shutdown
+    + Quit: `nginx -s quit` - Graceful Shutdown
     + Reload: `nginx -s reload`
    
 ## View Index Page
