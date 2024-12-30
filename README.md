@@ -40,10 +40,16 @@ To __test__ a configuration and also to know where the configuration is located 
 
 ## Default Config
 + Port: `80`
-+ Config Path: `/etc/nginx`
-+ Config File: `nginx.conf`
-+ HTML Path: `/usr/share/nginx/html`
-+ Configs: `/etc/nginx/conf.d/*.conf` or `/etc/nginx/sites-available/*` and `/etc/nginx/sites-enabled/*` - depending on your setup
++ Main Config Path: `/etc/nginx`
++ Main Config File: `nginx.conf`
++ Main HTML Path: `/usr/share/nginx/html`
++ Configs (Virtual Sites) `conf.d` or `sites-available`, depends on your setup
+  + conf.d
+    + Path: `/etc/nginx/conf.d`
+    + Default Config: `default.conf`
+  + sites-available
+    + Path: `/etc/nginx/sites-available`
+    + Path: `/etc/nginx/sites-enabled`
   
 ## Resources
 + [Nginx Missing Sites-available Directory | Better Stack Community](https://betterstack.com/community/questions/nginx-missing-site-available-directory/)
