@@ -12,6 +12,7 @@ It is a web server, reverse-proxy and forward-proxy
 + Port: `80`
 + Config Path: `/etc/nginx`
 + Config File: `nginx.conf`
++ HTML Path: `/usr/share/nginx/html`
 
 ## Starting
 + Mac
