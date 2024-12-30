@@ -43,3 +43,6 @@ To __test__ a configuration and also to know where the configuration is located 
 + Config Path: `/etc/nginx`
 + Config File: `nginx.conf`
 + HTML Path: `/usr/share/nginx/html`
+
+## Resources
++ [Nginx Missing Sites-available Directory | Better Stack Community](https://betterstack.com/community/questions/nginx-missing-site-available-directory/)
