@@ -128,6 +128,24 @@ server {
     }
 }
 ```
+
+## Example Load Balancing (https://nginx.org/en/docs/http/ngx_http_upstream_module.html)
+```
+upstream backend {
+    server backend1.example.com       weight=5;
+    server backend2.example.com:8080;
+    server unix:/tmp/backend3;
+
+    server backup1.example.com:8080   backup;
+    server backup2.example.com:8080   backup;
+}
+
+server {
+    location / {
+        proxy_pass http://backend;
+    }
+}
+```
   
 ## Resources
 + [Nginx Missing Sites-available Directory | Better Stack Community](https://betterstack.com/community/questions/nginx-missing-site-available-directory/)
