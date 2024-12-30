@@ -36,7 +36,7 @@ It is a web server, reverse-proxy and forward-proxy
 + Once you have the server running, point your browser to `localhost` or `localhost:8080` depending on how your server was setup.
 
 ## Configure nginx
-To __test__ a configuration and also to know where the configuration is located at, type: `nginx -t`.   Type: `nginx -V` and it will provid the config and the path.
+To __test__ a configuration and also to know where the configuration is located at, type: `nginx -t`.   Type: `nginx -V` and it will provide the config and the path.
 
 ## Default Config
 + Port: `80`
