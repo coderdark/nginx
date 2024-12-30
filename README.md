@@ -9,7 +9,7 @@ It is a web server, reverse-proxy and forward-proxy
   + `sudo apt install nginx`
 
 ## Default Config
-+ Port: 80
++ Port: `80`
 + Config Path: `/etc/nginx`
 + Config File: `nginx.conf`
 
