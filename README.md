@@ -10,6 +10,8 @@ It is a web server, reverse-proxy and forward-proxy
 
 ## Default Config
 + Port: 80
++ Config Path: `/etc/nginx`
++ Config File: `nginx.conf`
 
 ## Starting
 + Mac
