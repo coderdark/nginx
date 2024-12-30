@@ -25,12 +25,14 @@ It is a web server, reverse-proxy and forward-proxy
     + Stop: `nginx -s stop` - Fast Shutdown
     + Quit: `nginx -s quit` - Graceful Shutdown
     + Reload: `nginx -s reload`
+    + Reload: `nginx -s reopen`
 + Linux
   + nginx
     + Start: `nginx`
     + Stop: `nginx -s stop` - Fast Shutdown
     + Quit: `nginx -s quit` - Graceful Shutdown
     + Reload: `nginx -s reload`
+    + Reload: `nginx -s reopen`
    
 ## View Index Page
 + Once you have the server running, point your browser to `localhost` or `localhost:8080` depending on how your server was setup.
