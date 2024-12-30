@@ -34,6 +34,10 @@ It is a web server, reverse-proxy and forward-proxy
     + Reload: `nginx -s reload`
     + Reload: `nginx -s reopen`
    
+## Commands
++ `kill -s <id>`  - to quit the process
++ `ps -ax | grep nginx` - list of running nginx processes
+   
 ## View Index Page
 + Once you have the server running, point your browser to `localhost` or `localhost:8080` depending on how your server was setup.
 
