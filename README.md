@@ -1,4 +1,5 @@
 # NGINX Server
+It is a web server, reverse-proxy and forward-proxy
 
 ## Installing
 + Mac
