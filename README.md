@@ -114,7 +114,7 @@ server {
     #}
 ```
 
-## Example Proxy Pass
+## Example Proxy Pass (https://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass)
 ```
 server {
     listen       80;
@@ -124,7 +124,7 @@ server {
     #access_log  /var/log/nginx/host.access.log  main;
 
     location / {
-        root   /usr/share/nginx/html;
+        proxy_pass http://localhost:8000;
     }
 }
 ```
