@@ -112,6 +112,7 @@ server {
     #location ~ /\.ht {
     #    deny  all;
     #}
+}
 ```
 
 ## Example Proxy Pass (https://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass)
